@@ -1,0 +1,32 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-02 {}
+}
+
+
+/* Common sm, md, lg */
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-02 {
+        padding: 100px 0;
+        .c-wrapper-02 {
+            display: flex;
+            .c-column-01 {
+                flex: 1;
+                width: 92px;
+                height: 288px;
+                font-weight: 400;
+                font-size: 144px;
+                line-height: 288px;
+                color: rgba(0, 0, 0, 0.1);
+            }
+            .c-column-02 {
+                width: 782px;
+            }
+        }
+    }
+}

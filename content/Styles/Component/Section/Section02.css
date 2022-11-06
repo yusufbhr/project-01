@@ -1,0 +1,22 @@
+/* Common xs1, xs2 */
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-02 {
+    padding: 100px 0;
+  }
+  .section-02 .c-wrapper-02 {
+    display: flex;
+  }
+  .section-02 .c-wrapper-02 .c-column-01 {
+    flex: 1;
+    width: 92px;
+    height: 288px;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 288px;
+    color: rgba(0, 0, 0, 0.1);
+  }
+  .section-02 .c-wrapper-02 .c-column-02 {
+    width: 782px;
+  }
+}/*# sourceMappingURL=Section02.css.map */
