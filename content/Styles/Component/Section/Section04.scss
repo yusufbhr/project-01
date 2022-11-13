@@ -1,0 +1,202 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-04 {}
+}
+
+
+/* Common sm, md, lg */
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-04 {
+        background: #E5E5E5;
+        padding: 100px 0;
+        .c-wrapper-04 {
+            .head {
+                margin-bottom: 32px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 60px;
+                letter-spacing: -0.022em;
+                color: #000000;
+            }
+            .explanation {
+                margin-bottom: 60px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 34px;
+                letter-spacing: -0.017em;
+                color: rgba(0, 0, 0, 0.8);
+            }
+            .a-item {
+                display: flex;
+                .column-01 {
+                    margin-right: 107px;
+                    .column-01-A {
+                        margin-bottom: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 22px;
+                        letter-spacing: -0.017em;
+                        color: #000000;
+                    }
+                    .column-01-B {
+                        margin-bottom: 90px;
+                        width: 375px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 22px;
+                        letter-spacing: -0.006em;
+                        color: rgba(0, 0, 0, 0.8);
+                    }
+                    .c-unit {
+                        background-color: #fff;
+                        width: 375px;
+                        .c-unit-01 {
+                            display: flex;
+                            padding: 8px 14px 13px 21px;
+                            justify-content: space-between;
+                            .c-unit-01-A {
+                                font-family: 'Inter';
+                                font-weight: 700;
+                                font-size: 15px;
+                                line-height: 18px;
+                                letter-spacing: -0.333333px;
+                                color: #000000;
+                            }
+                        }
+                        .c-unit-02 {
+                            display: flex;
+                            padding: 32px 0 18px 0;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .c-unit-02-A {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 36px;
+                                line-height: 40px;
+                                letter-spacing: -0.015em;
+                                color: #000000;
+                            }
+                            .c-unit-02-B {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 13px;
+                                line-height: 15px;
+                                letter-spacing: 0.04em;
+                                text-transform: uppercase;
+                                color: #000000;
+                            }
+                        }
+                        .c-unit-03 {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 0 16px 0 16px;
+                            .c-unit-03-A {
+                                padding: 19px 125px 19px 125px;
+                                margin-bottom: 16px;
+                                background: #000000;
+                                border: 2px solid #000000;
+                                border-radius: 6px;
+                                align-items: center;
+                                text-align: center;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 11px;
+                                line-height: 15px;
+                                letter-spacing: 0.04em;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                            }
+                            .c-unit-03-B {
+                                padding: 19px 125px 19px 125px;
+                                margin-bottom: 32px;
+                                border: 2px solid #000000;
+                                border-radius: 6px;
+                                align-items: center;
+                                text-align: center;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 13px;
+                                line-height: 15px;
+                                letter-spacing: 0.04em;
+                                text-transform: uppercase;
+                                color: #000000;
+                            }
+                        }
+                        .c-unit-04 {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                             :not(:last-child) {
+                                padding: 0 8px 0 8px;
+                            }
+                        }
+                        .c-unit-05 {
+                            margin-left: 16px;
+                        }
+                        .c-unit-06 {
+                            padding: 32px 16px 0 16px;
+                            .c-unit-06-A {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 36px;
+                                line-height: 40px;
+                                letter-spacing: -0.015em;
+                                color: #000000;
+                            }
+                            .c-unit-06-B {
+                                padding: 17px 231px 17px 17px;
+                                height: 52px;
+                                width: 100%;
+                                background: #FFFFFF;
+                                border: 2px solid #000000;
+                                margin-top: 32px;
+                            }
+                            .c-unit-06-C {
+                                padding: 17px 231px 17px 17px;
+                                margin-bottom: 16px;
+                                height: 52px;
+                                width: 100%;
+                                background: #FFFFFF;
+                                border: 2px solid #000000;
+                                margin-top: 16px;
+                            }
+                            .c-unit-06-D {
+                                height: 52px;
+                                width: 100%;
+                                margin-bottom: 406px;
+                                border: 2px solid #000000;
+                                border-radius: 6px;
+                                font-family: 'Inter';
+                                text-transform: uppercase;
+                                letter-spacing: 0.04em;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 13px;
+                                line-height: 15px;
+                                background: #000000;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
